@@ -127,8 +127,8 @@ textarea {
 }
 .form-container form input:focus,
 .form-container form textarea:focus {
-  border-color: #535455; /* Cambia el color del borde al enfocar */
-  outline: none; /* Elimina el contorno por defecto */
+  border-color: #535455;
+  outline: none;
 }
 .form-container form input[type=submit],
 .form-container form input[type=reset] {
