@@ -38,7 +38,7 @@ main {
 
 h1 {
   text-align: center;
-  font-size: 130px;
+  font-size: 140px;
   margin: 20px 0px;
 }
 
@@ -111,9 +111,6 @@ textarea {
   h2 {
     font-size: 20px;
   }
-  p {
-    font-size: 15px;
-  }
 }
 /* animación */
 @keyframes slideIn {
@@ -134,15 +131,24 @@ textarea {
 }
 .slide-in {
   animation: slideIn 1.5s ease-in-out;
-  font-size: 40px;
+  font-size: 28px;
 }
 
+@media (max-width: 480px) {
+  .slide-in {
+    font-size: 20px;
+  }
+}
 /* Footer */
 footer {
   margin: 20px;
   padding: 20px;
   border-top: 1px solid black;
   text-align: center;
+}
+
+h3 {
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
